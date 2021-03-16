@@ -64,11 +64,13 @@
   }
   
   .modal__content {
+    margin: auto;
+    max-width: 800px;
+  }
+  .slider-wrapper {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: auto;
-    max-width: 800px;
   }
   .show-modal, .move-prev, .move-next {
     display: block;
@@ -81,4 +83,17 @@
   }
   .move-prev, .move-next {
     margin: 10px;
+  }
+
+  .gallery-thumbnails {
+    display: flex;
+    justify-content: center;
+  }
+  .thumbnails-item {
+    margin: 0 10px;
+    width: 150px;
+    height: 80px;
+    object-fit: cover;
+    flex-shrink: 0;
+    cursor: pointer;
   }
