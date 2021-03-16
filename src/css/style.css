@@ -90,7 +90,7 @@
     justify-content: center;
   }
   .thumbnails-item {
-    margin: 0 10px;
+    margin: 5px 10px;
     width: 150px;
     height: 80px;
     object-fit: cover;
